@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/res/values-sw600dp/refs.xml -->
+    <eat-comment/>
+    <item name="activity_main" type="layout">@layout/activity_main_twopane</item>
+</resources>

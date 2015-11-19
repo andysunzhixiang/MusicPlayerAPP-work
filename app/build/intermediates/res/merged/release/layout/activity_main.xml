@@ -1,0 +1,9 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_music"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:name="org.loader.musicplayer.fragment.LocalMusicFragment"
+    tools:context="org.loader.musicplayer.fragment.LocalMusicFragment"
+    tools:layout="@layout/local_music_layout"/>
+<!-- From: file:/Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/res/layout/activity_main.xml -->

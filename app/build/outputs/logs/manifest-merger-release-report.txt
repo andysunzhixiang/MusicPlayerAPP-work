@@ -1,0 +1,85 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:2:1-43:12
+	xmlns:android
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:7:5-9:40
+	android:targetSdkVersion
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:11:22-77
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:12:22-65
+application
+ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:14:5-41:19
+	android:label
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:18:9-41
+	android:allowBackup
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:16:9-35
+	android:icon
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:17:9-43
+	android:theme
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:19:9-40
+	android:hardwareAccelerated
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:23:9-43
+	android:allowClearUserData
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:21:9-42
+	android:persistent
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:22:9-34
+	android:name
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:15:9-62
+	android:vmSafeMode
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:20:9-34
+activity#org.loader.musicplayer.activity.SplashActivity
+ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:24:9-31:20
+	android:name
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:25:13-74
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:29:27-74
+activity#org.loader.musicplayer.activity.MainActivity
+ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:32:9-35:15
+	android:screenOrientation
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:34:13-49
+	android:name
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:33:13-72
+activity#org.loader.musicplayer.activity.PlayActivity
+ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:36:9-39:46
+	android:screenOrientation
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:38:13-49
+	android:name
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:37:13-72
+	android:launchMode
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:39:13-43
+service#org.loader.musicplayer.service.PlayService
+ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:40:9-77
+	android:name
+		ADDED from /Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/AndroidManifest.xml:40:18-75

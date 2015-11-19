@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.loader.musicplayer.fragment.DetailFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/play_singer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:text="The singer"/>
+
+        <org.loader.musicplayer.ui.CDView
+            android:layout_marginBottom="0dp"
+            android:id="@+id/play_cd_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+</FrameLayout>
+<!-- From: file:/Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/res/layout/fragment_detail.xml -->

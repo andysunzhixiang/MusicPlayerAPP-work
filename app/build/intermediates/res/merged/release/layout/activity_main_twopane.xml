@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:divider="?android:attr/dividerHorizontal"
+    android:orientation="horizontal"
+    android:showDividers="middle"
+    tools:context=".MainActivity">
+
+    <!--
+    This layout is a two-pane layout for the Items
+    master/detail flow.
+    See res/values-large/refs.xml and
+    res/values-sw600dp/refs.xml for an example of layout aliases
+    that replace the single-pane version of the layout with
+    this two-pane version.
+    -->
+
+    <fragment android:id="@+id/music_list_2pane"
+        android:name="org.loader.musicplayer.fragment.LocalMusicFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/local_music_layout" />
+
+    <FrameLayout android:id="@+id/music_detail_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>
+<!-- From: file:/Users/sunzhixiang/Desktop/Androider/UdacityProjects/MusicPlayerAPPv1/app/src/main/res/layout/activity_main_twopane.xml -->
